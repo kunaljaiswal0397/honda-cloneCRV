@@ -122,7 +122,8 @@ export default class BuildAndPrice extends LightningElement {
     }
     saveHandler()
     {
-        console.log('Form submitted')
+        console.log("Form Submitted!!")
+        this.template.querySelector('components-lead-form').formSubmit()
     }
 
     animatePrice()
@@ -141,10 +142,6 @@ export default class BuildAndPrice extends LightningElement {
         },10)
 
     }
-    submitHander(){
-        console.log("Form Submitted!!")
-        this.template.querySelector('components-lead-form').formSubmit()
-      }
   
       get description(){
         return `Customer is looking for CRV ${this.selectedVarainat.variant} of color ${this.selectedColorName}`
