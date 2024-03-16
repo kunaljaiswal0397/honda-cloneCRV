@@ -58,7 +58,7 @@ yarn install
 yarn dev # dev:compat for AMD format
 ```
 
-Open the site at [http://localhost:3000](http://localhost:3000)
+Open the site at (https://hondacrvclone.netlify.app/)
 
 ## Statically Generate and Preview the Site
 
@@ -67,4 +67,4 @@ yarn build # dev:prod-compat for AMD format
 yarn start
 ```
 
-Open the site at [http://localhost:3000](http://localhost:3000)
+Open the site at (https://hondacrvclone.netlify.app/)
